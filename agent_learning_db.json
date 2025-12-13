@@ -1,0 +1,42 @@
+{
+    "1\ufe0f\u20e3 Core Questions": [
+        {
+            "q": "What is the problem with this crop?",
+            "weight": 0.919
+        },
+        {
+            "q": "Is this a serious problem?",
+            "weight": 0.8380000000000001
+        }
+    ],
+    "2\ufe0f\u20e3 Pesticide Selection": [
+        {
+            "q": "What pesticide should I use?",
+            "weight": 0.7
+        },
+        {
+            "q": "Is there an organic alternative?",
+            "weight": 0.6
+        }
+    ],
+    "3\ufe0f\u20e3 Dosage (Regression Model)": [
+        {
+            "q": "What is the correct dosage per acre?",
+            "weight": 0.5
+        },
+        {
+            "q": "Will using more damage the crop?",
+            "weight": 0.5
+        }
+    ],
+    "4\ufe0f\u20e3 Application Method": [
+        {
+            "q": "When is the best time to spray?",
+            "weight": 0.5
+        },
+        {
+            "q": "Should I spray leaves or soil?",
+            "weight": 0.5
+        }
+    ]
+}
