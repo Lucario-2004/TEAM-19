@@ -7,7 +7,7 @@ import sys
 import difflib # For NLP matching
 
 # --- CONFIGURATION ---
-API_KEY = "AIzaSyAiZiYHCZdpUUxsYP-WYND5bq3DIdF_iWs"
+API_KEY = "your_api_key"
 LEARNING_DB_FILE = "agent_learning_db.json"
 SESSION_FILE = "current_session.json"
 
