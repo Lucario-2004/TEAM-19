@@ -136,7 +136,7 @@ class AgroTwinAgent:
         full_prompt = f"{self.system_prompt}\n\nRecent History:\n{history_str}\n\nFarmer: {user_input}\nAGRO-TWIN:"
         
         try:
-            model = genai.GenerativeModel('gemini-pro')
+            model = genai.GenerativeModel('gemini-2.5-pro')
             response = model.generate_content(full_prompt)
             reply = response.text
             

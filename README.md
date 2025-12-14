@@ -163,3 +163,250 @@ Connectivity: WebSockets and MQTT for real-time Digital Twin synchronization.
 
 
 Agri Twin is more than a bot—it is a lifeline for the future of sustainable farming. 🌱🚀
+
+# AGRO-TWIN: Agricultural Digital Twin Platform
+
+A revolutionary agricultural digital twin platform that combines AI-powered analysis, 3D field simulation, and expert consultation to help farmers manage their crops more effectively.
+
+## 🌱 Features
+
+### 1. **Interactive Landing Page**
+- Modern, vibrant UI with agricultural theme
+- Animated backgrounds and smooth transitions
+- Comprehensive project overview
+- Technology stack showcase
+
+### 2. **Field Configuration System**
+- Interactive 10x10 grid interface
+- Select up to 15 infection spots for simulation
+- Real-time progress tracking
+- Visual feedback with color-coded cells
+
+### 3. **3D Field Simulation**
+- Real-time 3D field visualization using Three.js
+- Controllable neon blue bot with WASD/Arrow keys
+- Neon green crops with interactive scanning
+- Space bar to scan nearby crops
+- Real-time position tracking and scan history
+
+### 4. **AI Expert Chatbot**
+- **CAG (Continuous Augmented Generation)** architecture
+- **Regression Learning** system that adapts to user queries
+- **NLP Processing** for intelligent question matching
+- **Context-aware** responses based on crop analysis
+- **Gemini 2.5 Pro** powered AI backend
+- Interactive question suggestions with learning weights
+
+## 🚀 Technology Stack
+
+- **Frontend**: Next.js 15 with TypeScript
+- **3D Graphics**: Three.js with React Three Fiber
+- **UI Components**: shadcn/ui with Tailwind CSS
+- **Animations**: Framer Motion
+- **AI**: Google Gemini 2.5 Pro API
+- **State Management**: React hooks and localStorage
+- **Styling**: Tailwind CSS with custom agricultural theme
+
+## 🎯 Key Components
+
+### Landing Page (`/`)
+- Project introduction and feature showcase
+- Animated hero section with gradient effects
+- Technology stack display
+- Call-to-action buttons
+
+### Configuration Page (`/configuration`)
+- Interactive grid for field setup
+- Real-time selection tracking
+- Progress indicators
+- Configuration persistence
+
+### Simulation Page (`/simulation`)
+- 3D field environment with Three.js
+- Bot movement controls (WASD/Arrow keys)
+- Crop scanning functionality (Space bar)
+- Real-time scan results and history
+- Status dashboards
+
+### AI Chatbot (`/chatbot`)
+- Context-aware AI assistant
+- Regression learning for question adaptation
+- Quick action buttons
+- Learning status indicators
+- Conversation history
+
+## 🧠 AI Architecture
+
+### CAG (Continuous Augmented Generation)
+- Maintains continuous context of crop analysis
+- Adapts responses based on current field conditions
+- Provides personalized recommendations
+
+### Regression Learning
+- Learns from user interactions
+- Adapts question suggestions based on usage patterns
+- Implements weight-based question ranking
+- Persistent learning across sessions
+
+### NLP Processing
+- Intelligent question matching
+- Semantic similarity analysis
+- Contextual understanding
+- Adaptive response generation
+
+## 🎨 Design System
+
+### Color Palette
+- **Primary**: Green gradient (#00ff00 to #44ff44)
+- **Secondary**: Blue accents (#00d4ff)
+- **Background**: Dark theme (#0a0a0a to #1a1a1a)
+- **Alert**: Red for defective crops (#ff4444)
+
+### Visual Effects
+- Neon glow effects for interactive elements
+- Smooth animations and transitions
+- Gradient backgrounds
+- Glass-morphism effects
+- Responsive design
+
+## 📁 Project Structure
+
+```
+src/
+├── app/
+│   ├── api/
+│   │   └── chat/
+│   │       └── route.ts          # AI chat API endpoint
+│   ├── chatbot/
+│   │   └── page.tsx             # AI expert interface
+│   ├── configuration/
+│   │   └── page.tsx             # Field configuration
+│   ├── simulation/
+│   │   └── page.tsx             # 3D simulation
+│   ├── layout.tsx               # Root layout
+│   ├── page.tsx                 # Landing page
+│   └── globals.css              # Global styles
+├── components/
+│   ├── chatbot/
+│   │   └── ChatInterface.tsx    # Chat component
+│   ├── simulation/
+│   │   └── FieldSimulation.tsx  # 3D simulation component
+│   └── ui/
+│       ├── navigation.tsx       # Navigation components
+│       └── loading.tsx          # Loading screens
+└── lib/
+    └── utils.ts                 # Utility functions
+```
+
+## 🖼️ Asset Management
+
+### Crop Images
+- **Healthy Crops**: `/public/images/healthy-crops/`
+  - wheat-healthy.jpg
+  - corn-healthy.jpg
+  - rice-healthy.jpg
+
+- **Unhealthy Crops**: `/public/images/unhealthy-crops/`
+  - wheat-rust.jpg
+  - wheat-mildew.jpg
+  - wheat-septoria.jpg
+  - wheat-stem_rust.jpg
+  - wheat-fusarium.jpg
+  - corn-blight.jpg
+  - corn-wilt.jpg
+  - corn-leaf_blight.jpg
+  - corn-common_rust.jpg
+  - rice-blight.jpg
+  - rice-blast.jpg
+  - rice-sheath_blight.jpg
+  - rice-tungro.jpg
+  - soybean-rot.jpg
+  - soybean-sudden_death.jpg
+  - soybean-brown_stem.jpg
+
+## 🎮 User Flow
+
+1. **Landing Page** → User learns about the project
+2. **Configuration** → User sets up field with infection spots
+3. **Simulation** → User navigates 3D field and scans crops
+4. **AI Expert** → User gets treatment recommendations
+
+## 🔧 Controls
+
+### Simulation Controls
+- **W/↑**: Move forward
+- **S/↓**: Move backward
+- **A/←**: Move left
+- **D/→**: Move right
+- **Space**: Scan nearby crop
+
+### Navigation
+- **Menu Button**: Toggle navigation sidebar
+- **Breadcrumb**: Navigate between pages
+- **Back Button**: Return to previous page
+
+## 🚀 Getting Started
+
+1. **Install Dependencies**
+   ```bash
+   npm install
+   ```
+
+2. **Run Development Server**
+   ```bash
+   npm run dev
+   ```
+
+3. **Build for Production**
+   ```bash
+   npm run build
+   npm start
+   ```
+
+## 📊 Features in Detail
+
+### 3D Simulation
+- Real-time rendering with Three.js
+- Interactive bot movement
+- Crop scanning with visual feedback
+- Position tracking and history
+- Responsive controls
+
+### AI Chatbot
+- Context-aware responses
+- Learning adaptation
+- Quick action buttons
+- Conversation history
+- Expert recommendations
+
+### Configuration System
+- Interactive grid interface
+- Real-time validation
+- Progress tracking
+- Data persistence
+- Visual feedback
+
+## 🎯 Future Enhancements
+
+- [ ] Multi-user support
+- [ ] Real-time collaboration
+- [ ] Advanced analytics dashboard
+- [ ] Mobile app version
+- [ ] Additional crop types
+- [ ] Weather integration
+- [ ] IoT device connectivity
+- [ ] Advanced disease detection
+- [ ] Yield prediction models
+- [ ] Integration with farm management systems
+
+## 🤝 Contributing
+
+This project is designed to showcase modern web development capabilities with AI integration. Feel free to explore the codebase and learn from the implementation.
+
+## 📄 License
+
+This project is for educational and demonstration purposes.
+
+---
+
+**AGRO-TWIN** - Revolutionizing Agriculture with Digital Twin Technology 🌾🤖
