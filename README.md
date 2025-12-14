@@ -410,6 +410,10 @@ This project is for educational and demonstration purposes.
 ## 📽 Demo Explanation.
 https://youtu.be/CVgFm5eWr2w?si=SJ2jyJ8795ZEL9rp
 
+## 🤖 Open Source AI usage( Gemini ).
+https://g.co/gemini/share/2eca057733a2
+https://g.co/gemini/share/0e1eb911aae9
+
 ---
 
 **AGRO-TWIN** - Revolutionizing Agriculture with Digital Twin Technology 🌾🤖
