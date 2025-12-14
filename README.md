@@ -407,6 +407,9 @@ This project is designed to showcase modern web development capabilities with AI
 
 This project is for educational and demonstration purposes.
 
+## 📽 Demo Explanation.
+https://youtu.be/CVgFm5eWr2w?si=SJ2jyJ8795ZEL9rp
+
 ---
 
 **AGRO-TWIN** - Revolutionizing Agriculture with Digital Twin Technology 🌾🤖
